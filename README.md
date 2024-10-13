@@ -9,7 +9,7 @@ This repository provides a **Grafana dashboard** specifically designed to track 
 To install and configure the **Grafana dashboard** for the Story Validator, execute the following command in your terminal:
 
 ```bash
-cd $HOME && wget -q -O installer_grafana_story.sh https://raw.githubusercontent.com/NESSO4928/Story-Validator-Grafana/main/installer_grafana_story.sh && chmod +x installer_grafana_story.sh && ./installer_grafana_story.sh
+cd $HOME && wget -q -O installer_grafana_story.sh https://raw.githubusercontent.com/NESSO4928/Story-Validator-Grafana/refs/heads/main/installer_grafana_story.sh && chmod +x installer_grafana_story.sh && ./installer_grafana_story.sh
 ```
 
 This command will:
