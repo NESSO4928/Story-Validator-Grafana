@@ -230,7 +230,7 @@ grafana_host="http://localhost:$new_port"
 admin_user="admin"
 admin_password="admin"
 prometheus_url="http://localhost:9344"
-dashboard_url="https://raw.githubusercontent.com/x038xx77/STORY-Testnet-Blockchain/main/dashboard_story.json"
+dashboard_url="https://raw.githubusercontent.com/NESSO4928/Story-Validator-Grafana/refs/heads/main/dashboard_story.json"
 
 echo -e "${green}***********Downloading and modifying the dashboard_story.json*************${reset}"
 curl -s "$dashboard_url" -o $HOME/dashboard_story.json
